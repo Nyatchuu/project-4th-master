@@ -793,3 +793,25 @@ footer .row .col-md-2:nth-child(4){
         display: none;
     }
 }
+
+.wrapper{
+    width: 100%;
+    min-height: 100vh;
+    overflow: hidden;
+    background-color: #ddd;
+}
+.thisrow{
+    width: 100%;
+    padding: 50px 100px;
+}
+.image-section{
+    width: 30%;
+    float: left;
+}
+.image-section img{
+    width: 100%;
+    height: auto;
+}
+.content{
+    width: 60;
+}

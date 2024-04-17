@@ -13,6 +13,17 @@
 <?php
             include('../page-components/header.php');
         ?>
+        <div class="wrapper">
+            <div class="thisrow">
+                <div class="image-section">
+                    <img src="../images/nepal.jpg" alt="">
+                </div>
+                <div class="content">
+                    <h1>About Us</h1>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptate voluptates debitis vero praesentium consequatur quasi cum fugiat similique itaque excepturi, veniam quas, minima possimus repellat aperiam aliquam ipsa corporis quis?</p>
+                </div>
+            </div>
+        </div>
 <?php
             include('../page-components/footer.php');
         ?>
