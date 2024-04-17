@@ -8,7 +8,7 @@
 } 
 body{
     font-family: 'Poppins', sans-serif;
-    background: linear-gradient(#fbf2cc, #fff);
+    background: linear-gradient(#fffdf1, #fff);
 }
 
 header{ 
@@ -796,9 +796,8 @@ footer .row .col-md-2:nth-child(4){
 
 .wrapper{
     width: 100%;
-    min-height: 100vh;
+    min-height: 80vh;
     overflow: hidden;
-    background-color: #ddd;
 }
 .thisrow{
     width: 100%;
@@ -810,8 +809,164 @@ footer .row .col-md-2:nth-child(4){
 }
 .image-section img{
     width: 100%;
-    height: auto;
+    height: 500px;
+    object-fit: cover;
 }
-.content{
-    width: 60;
+.contenta{
+    width: 60%;
+    float: left;
+    margin-left: 50px;
+}
+
+.contenta h1{
+    font-size: 90px;
+    letter-spacing: 3.5px;
+    margin-top: 25px;
+    color: #222;
+    font-family: 'Lobster', cursive;
+}
+
+.contenta p{
+    font-size: 20px;
+    font-family: serif;
+    margin-top: 10px;
+    line-height: 1.5;
+}
+
+@media screen and (max-width:786px){
+    .image-section{
+        width: 100%;
+        float: none;
+    }
+    .contenta{
+        width: 100%;
+        float: none;
+        margin-left: 0px;
+    }
+    .contenta h1{
+        font-size: 60px;
+        letter-spacing: 2px;
+        margin-top: 30px;
+        font-family: 'Lobster', cursive;
+    }
+    .contenta p{
+        font-size: 18px;
+    }
+    .teams{
+        max-width: 100%;
+    }
+}
+
+.cont{
+    text-align: center;
+}
+.team{
+    padding-top: 60px;
+    font-size: 20px;
+    margin: auto;
+    line-height: 50px;
+    font-family: 'Lobster', cursive;
+}
+.sub-cont{
+    max-width: 1200px;
+    margin: auto;
+    padding: 48px 0;
+    display: flex;
+    justify-content: center;
+}
+.teams{
+    margin: 10px;
+    padding: 22px;
+    cursor: pointer;
+    transition: 0.4s;
+    box-sizing: border-box;
+}
+.teams:hover{
+    background-color: rgb(215, 215, 190);
+    border-radius: 12px;
+}
+
+.teams img{
+    width: 200px;
+    height: 200px;
+    border-radius: 25px;
+}
+.namae{
+    padding: 12px;
+    font-weight: bold;
+    font-size: 16px;
+    text-transform: uppercase;
+}
+.desig{
+    font-style: italic;
+    color: grey;
+    font-weight: 400;
+}
+.aboutme{
+    margin:20px 0;
+    font-weight: 300;
+    color: grey;
+}
+.social-links{
+     margin: 14px;
+}
+.social-links a{
+    display: inline-block;
+    height: 50px;
+    width: 50px;
+    transition: .4s;
+}
+.social-links a:hover{
+    transform: scale(1.5);
+}
+.social-links a i{
+    color: grey;
+}
+.social-links a i:hover{
+    color: rgb(103, 41, 41);
+}
+.service-heading h1{
+    text-align: center;
+    margin: 50px 0;
+    color: #000;
+    font-size: 55px;
+}
+.services{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.service{
+    width: 350px;
+    padding: 20px;
+    margin: 20px;
+    background-color: #f2f1f1;
+    text-align: center;
+    border-radius: 10px;
+    box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.1);
+    cursor: pointer;
+    transition: 0.3s ease;
+}
+.service:hover{
+    transform: translateY(-5px);
+}
+.service i{
+    font-size: 36px;
+    color: green;
+    margin-bottom: 18px;
+}
+.service h3{
+    font-size: 26px;
+    margin-bottom: 10px;
+}
+.service p{
+    font-size: 17px;
+    line-height: 1.4;
+    color: #666;
+    margin-bottom: 10px;
+}
+.service a{
+    text-decoration: none;
+    font-size: 17px;
+    color: green;
 }
