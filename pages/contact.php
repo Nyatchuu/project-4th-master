@@ -15,11 +15,12 @@
             include('../page-components/header.php');
         ?>
          <div class="contact">
-            <form action="" class="contact-left">
+            <form action="https://api.web3forms.com/submit" method="POST" class="contact-left">
                 <div class="contact-left-title">
                     <h2>Get in touch</h2>
                     <hr>
                 </div>
+                <input type="hidden" name="access_key" value="3540d0ea-5f0c-4c55-943c-0b970b0317c9">
                 <input type="text" name="name" placeholder ="Enter your name" class="contact-inputs" required>
                 <input type="email" name="email" placeholder ="Enter your Email" class="contact-inputs" required>
                 <textarea name="message" placeholder="Enter your message" class="contact-inputs" required></textarea>

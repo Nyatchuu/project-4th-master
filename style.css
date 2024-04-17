@@ -8,6 +8,7 @@
 } 
 body{
     font-family: 'Poppins', sans-serif;
+    background: linear-gradient(#fbf2cc, #fff);
 }
 
 header{ 
@@ -759,6 +760,36 @@ footer .row .col-md-2:nth-child(4){
     padding-top:15px;
     border-radius:20px;
 }
-.contact-input:focus{
-    border: 1px solid yellow;
+.contact-inputs:focus{
+    border: 2px solid #2fd440;
+}
+.contact-inputs::placeholder{
+    color: grey;
+}
+.contact-left button{
+    display: flex;
+    align-items: center;
+    padding: 15px 30px;
+    font-size: 16px;
+    color: white;
+    gap: 10px;
+    border: 1px solid grey;
+    border-radius: 50px;
+    background: linear-gradient(270deg, rgb(185, 38, 238), rgb(241, 45, 163));
+    cursor: pointer;
+}
+.contact-left button img{
+    height: 15px;
+}
+.contact-right img{
+    width: 500px;
+}
+
+@media (max-width:800px){
+    .contact-inputs{
+        width: 80vw;
+    }
+    .contact-right{
+        display: none;
+    }
 }
